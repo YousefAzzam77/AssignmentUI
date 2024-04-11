@@ -1,8 +1,8 @@
 import { Component, Input, Output, EventEmitter, OnInit, ChangeDetectionStrategy, ChangeDetectorRef } from '@angular/core';
-import { Task } from '../../models/task.model';
+import { Task } from '../../task.model';
 import { CommonModule, DatePipe } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { TaskService } from '../../services/task.service';
+import { TaskService } from '../../task.service';
 
 @Component({
   selector: 'app-task-list',

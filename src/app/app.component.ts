@@ -1,5 +1,5 @@
 import { Component, EventEmitter, Output } from '@angular/core';
-import { Task } from '../models/task.model';
+import { Task } from '../task.model';
 import { FormsModule } from '@angular/forms';
 import { RouterOutlet } from '@angular/router';
 import { TaskListComponent } from './task-list/task-list.component';
